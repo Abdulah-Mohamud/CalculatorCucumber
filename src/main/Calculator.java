@@ -12,14 +12,6 @@ public class Calculator implements Closeable {
 		return a -b;
 	}
 
-	public int multiple(int a, int b) {
-		return a * b;
-	}
-
-	public int divide(int a, int b) {
-		return a /b;
-	}
-
 	@Override
 	public void close() {
 		// Some hypothetical close function

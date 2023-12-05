@@ -11,4 +11,10 @@ import org.junit.runner.RunWith;
 	plugin = {"pretty"},
 	snippets = SnippetType.CAMELCASE,
 	features = "src/test/resources/features")
-public class CucumberTest {}
+public class CucumberTest {
+
+	/**
+	 * This class should be empty, step definitions should be in separate classes.
+	 */
+
+}
